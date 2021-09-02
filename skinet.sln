@@ -3,11 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{E80DA357-E78E-4BE4-85D7-E756DFB6E0A2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{DD8C97F5-077B-48C5-B891-D3FF3D200B40}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{617F86DA-B41D-4E40-87CA-95C32684D4F6}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API", "API\API.csproj", "{2926B987-932C-4D60-947B-F9DA3AE87390}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{9DA62279-E1C2-48A4-AB14-416404FAE9F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{AAA3E468-8A21-4DE1-A711-16D9D3E4AA7C}"
+>>>>>>> 1fb615ec9fb665a43c148e052a1ff22b85c632bc
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
