@@ -10,6 +10,7 @@ import { ErrorInterceptor } from './core/interceptors/error.interceptor';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { LoadingInterceptor } from './core/interceptors/loading.interceptors';
 import { CheckoutModule } from './checkout/checkout.module';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CheckoutModule } from './checkout/checkout.module';
     CoreModule,
     HomeModule,
     NgxSpinnerModule,
-    CheckoutModule
+    CheckoutModule,
+    BsDropdownModule.forRoot()
 
   ],
   providers: [
